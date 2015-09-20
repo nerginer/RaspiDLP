@@ -1,0 +1,12 @@
+{
+"cure_time_bottom_layers" : "3000",
+"cure_time_nominal_layers" : "2000",
+"number_of_slices" : "10",
+"number_of_bottom_layers" : "3",
+"HeaderCode" : ";*** Header Start ***\r\nG21 ;Set units to be mm\r\nG91 ;Relative Positioning\r\nM17 ;Enable motors\r\n;*** Header End ***",
+"FooterCode" : ";*** Footer Start ***\r\nM18 ;Disable Motors\r\n;<Completed>\r\n;*** Footer End ***",
+"FirstLayerLiftGCode" : ";*** FirstLayer Lift Sequence Start ***\r\nG1 X10.0 Z5.0 F10\r\nG1 X-10.0 Z-4.95 F10\r\n;*** FirstLayer Lift Sequence End ***",
+"LiftGCode" : ";*** Lift Sequence Start***\r\nG1 X100.0 Z50.0 F50\r\nG1 X-100.0 Z-49.5 F50\r\n;*** Lift Sequence End ***",
+"FirstLayerMotionTime" : "3500",
+"LayerMotionTime": "2500"
+}
