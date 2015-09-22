@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('printManager', { title: 'Print Manager', printFile: 'Test.gcode' });
+  res.render('printManager', { title: 'Print Manager', printJob: 'Test.gcode' });
 });
 
 module.exports = router;

@@ -1,0 +1,11 @@
+{
+  "meterila_id": "1",
+  "name": "B9 Red Resin",
+  "cost_per_liters": "112",
+  "manufacturer": "B9 Creations",
+  "color": "red",
+  "Num_bottom_Layers": "3",
+  "cure_time_bottom_layers": "3000",
+  "cure_time_nominal_layers": "8000",
+  "cure_time_perimeter": "0"
+}

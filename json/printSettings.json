@@ -1,0 +1,9 @@
+{
+  "cure_time_bottom_layers": "3000",
+  "cure_time_nominal_layers": "2000",
+  "number_of_slices": "10",
+  "number_of_bottom_layers": "3",
+  "FirstLayerMotionTime": "3500",
+  "LayerMotionTime": "2500",
+  "ZLayerThickness": "0.01"
+}
