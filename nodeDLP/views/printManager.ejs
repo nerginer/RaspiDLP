@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include header %>
+    </header>
+
+    <main>
+    
+        <div class="jumbotron">
+   
+            <h3>Print Manager</h3>
+
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  Print File:
+               </div>
+               <div class="panel-body">
+                  <%= printFile %>
+               </div>
+            </div>
+
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                 Print Control:
+               </div>
+               <div class="panel-body">
+                 <button onclick="myFunction()">Click me</button>
+                 <button name="print"type="button"> Resume</button>
+                 <button type="button">Pause</button>
+                 <button type="button">Cancel</button>
+               </div>
+            </div>
+
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  Status:
+               </div>
+               <div class="panel-body">
+                  Printing : Layer 36 of 822
+               </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <% include footer %>
+    </footer>
+    
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include head %>
+    <script type="text/javascript" src="/javascripts/jsonform/deps/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/jsonform/deps/underscore.js"></script>
+    <script type="text/javascript" src="/javascripts/jsonform/deps/opt/jsv.js"></script>
+    <script type="text/javascript" src="/javascripts/jsonform/lib/jsonform.js"></script>
+</head>
+<body class="container">
+
+    <header>
+        <% include header %>
+    </header>
+
+    <main>
+    
+        <div class="jumbotron">
+            
+            <h3>Profiles</h3>
+             <div class="panel panel-default">
+               <div class="panel-heading">
+                  Meterials:
+               </div>
+               <div class="panel-body">
+                  Meterial settings
+
+                    meterila_id: <input type="text" name="meterila_id"><br>
+                    name: <input type="text" name="name"><br>
+                    cost_per_liters: <input type="text" name="cost_per_liters"><br>
+                    manufacturer: <input type="text" name="manufacturer"><br>
+                    color: <input type="text" name="color"><br>
+                    Num_bottom_Layers: <input type="text" name="Num_bottom_Layers"><br>
+                    cure_time_bottom_layers: <input type="text" name="cure_time_bottom_layers"><br>
+                    cure_time_nominal_layers: <input type="text" name="cure_time_nominal_layers"><br>
+                    cure_time_perimeter: <input type="text" name="cure_time_perimeter"><br>
+
+
+               </div>
+            </div>
+
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  Print Settings:
+               </div>
+               <div class="panel-body">
+                   <form></form>
+                   <div id="res" class="alert"></div>
+                   <script type="text/javascript">
+                      $('form').jsonForm({
+                           
+                              "schema": {
+                                "meterial_id": {
+                                  "type": "integer",
+                                  "title": "Meterial Id"
+                                },
+                                "meterial_name": {
+                                  "type": "string",
+                                  "title": "Name"
+                                }
+                              },
+                              "form": [
+                                {
+                                  "key": "meterial_id"
+                                  "key2": "meterial_name"
+                                },
+                                {
+                                  "type": "submit",
+                                  "title": "Save"
+                                }
+                              ]
+
+                      });
+                    </script>
+               </div>
+            </div>
+
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  Printer Settings:
+               </div>
+               <div class="panel-body">
+                  Printer settings
+               </div>
+            </div>
+
+        </div>
+    
+    </main>
+
+    <footer>
+        <% include footer %>
+    </footer>
+    
+</body>
+</html>

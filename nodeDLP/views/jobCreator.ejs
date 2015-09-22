@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include header %>
+    </header>
+
+    <main>
+    
+        <div class="jumbotron">
+       
+            <h3>Job Creator</h3>
+
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  Print File:
+               </div>
+               <div class="panel-body">
+                  <%= printFile %>
+               </div>
+            </div>
+
+
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  Select Meterial:
+               </div>
+               <div class="panel-body">
+                  <select>
+                      <option value="RedResin">B9 Creator Red Resin</option>
+                      <option value="Black">Fun to Do Blcak Resin</option>
+                      
+                  </select>
+               </div>
+            </div>
+
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  Select Profile:
+               </div>
+               <div class="panel-body">
+                  <select>
+                      <option value="p1">Fine Detailed Profile</option>
+                      <option value="p2">Fast Profile</option>
+                      
+                  </select>
+               </div>
+            </div>
+
+            <button type="button">Creat Job!</button>
+
+        </div>
+    
+    </main>
+
+    <footer>
+        <% include footer %>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include header %>
+    </header>
+
+    <main>
+    
+        <div class="jumbotron">
+            <h3>File Upload</h3>
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  Select File to Upload:
+               </div>
+               <div class="panel-body">
+                  <form id      =  "uploadForm"
+                       enctype   =  "multipart/form-data"
+                       action    =  "/upload"
+                       method    =  "post"
+                  >
+                      <input type="file" name="print_file" />
+                      <input type="submit" value="Upload Print File" name="submit">
+                  </form>
+               </div>
+            </div>
+
+
+
+
+
+            
+           
+        </div>
+    
+    </main>
+
+    <footer>
+        <% include footer %>
+    </footer>
+    
+</body>
+</html>
+
+
