@@ -44,34 +44,9 @@
                   Print Settings:
                </div>
                <div class="panel-body">
-                   <form></form>
-                   <div id="res" class="alert"></div>
-                   <script type="text/javascript">
-                      $('form').jsonForm({
-                           
-                              "schema": {
-                                "meterial_id": {
-                                  "type": "integer",
-                                  "title": "Meterial Id"
-                                },
-                                "meterial_name": {
-                                  "type": "string",
-                                  "title": "Name"
-                                }
-                              },
-                              "form": [
-                                {
-                                  "key": "meterial_id"
-                                  "key2": "meterial_name"
-                                },
-                                {
-                                  "type": "submit",
-                                  "title": "Save"
-                                }
-                              ]
-
-                      });
-                    </script>
+                   <form action="/foo" method="post">
+                  
+                   </form>
                </div>
             </div>
 

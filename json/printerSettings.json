@@ -1,20 +1,18 @@
 {
-  "DownloadDir": "/downloadDir",
-  "PrintDataDir": "/printDataDir",
-  "HardwareVer": "0.1",
-  "GCode_Post_Processor": {
-    "HeaderCode": ";*** Header Start ***\\r\\nG21 ;Set units to be mm\\r\\nG91 ;Relative Positioning\\r\\nM17 ;Enable motors\\r\\n;*** Header End ***",
-    "FooterCode": ";*** Footer Start ***\\r\\nM18 ;Disable Motors\\r\\n;<Completed>\\r\\n;*** Footer End ***",
-    "FirstLayerLiftGCode": ";*** FirstLayer Lift Sequence Start ***\\r\\nG1 X10.0 Z5.0 F10\\r\\nG1 X-10.0 Z-4.95 F10\\r\\n;*** FirstLayer Lift Sequence End ***",
-    "LiftGCode": ";*** Lift Sequence Start***\\r\\nG1 X100.0 Z50.0 F50\\r\\nG1 X-100.0 Z-49.5 F50\\r\\n;*** Lift Sequence End ***"
-   },
-  "FirstLayerMotionTime": "3500",
-  "LayerMotionTime": "2500",
-  "XYPixelSize": "50",
-  "ProjectorResH": "1024",
-  "ProjectorResW": "768",
-  "BuildTableX": "51.2",
-  "BuildTableY": "38.4",
-  "BuildTableHeight": "100"
+  "download_dir": "/downloadDir",
+  "print_data_dir": "/printDataDir",
+  "hardware_ver": "0.1",
+  "header_code": ";*** Header Start ***\r\nG21 ;Set units to be mm\r\nG91 ;Relative Positioning\r\nM17 ;Enable motors\r\n;*** Header End ***",
+  "footer_code": ";*** Footer Start ***\r\nM18 ;Disable Motors\r\n;<Completed>\r\n;*** Footer End ***",
+  "first_layer_lift_code": ";*** FirstLayer Lift Sequence Start ***\r\nG1 X10.0 Z5.0 F10\r\nG1 X-10.0 Z-4.95 F10\r\n;*** FirstLayer Lift Sequence End ***",
+  "lift_code": ";*** Lift Sequence Start***\r\nG1 X100.0 Z50.0 F50\r\nG1 X-100.0 Z-49.5 F50\r\n;*** Lift Sequence End ***",
+  "first_layer_motion_time": "3500",
+  "layer_motion_time": "2500",
+  "xy_pixel_size": "50",
+  "projector_res_h": "1024",
+  "projector_res_w": "768",
+  "build_table_x": "51.2",
+  "build_table_y": "38.4",
+  "build_table_height": "100"
   
 }
