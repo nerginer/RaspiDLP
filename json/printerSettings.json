@@ -1,6 +1,6 @@
 {
-  "download_dir": "/downloadDir",
-  "print_data_dir": "/printDataDir",
+  "download_dir": "/Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir",
+  "print_data_dir": "/Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir",
   "hardware_ver": "0.1",
   "header_code": ";*** Header Start ***\r\nG21 ;Set units to be mm\r\nG91 ;Relative Positioning\r\nM17 ;Enable motors\r\n;*** Header End ***",
   "footer_code": ";*** Footer Start ***\r\nM18 ;Disable Motors\r\n;<Completed>\r\n;*** Footer End ***",

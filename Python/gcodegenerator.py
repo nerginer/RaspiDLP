@@ -3,12 +3,28 @@ import json
 import zipfile
 import shutil
 import os
+from sys import exit
+import logger
+from pubsub import pub
 
 
-myInputFile="Archive.zip"
-imageOutPath="/Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/Python/Temp"
+pub.sendMessage('Log', arg1='debug', arg2='*** gcodegenerator.py started ***')
+pub.sendMessage('Log', arg1='debug', arg2='*** ------------------------- ***')
+
 settingsJsonFile="../json/printerSettings.json"
 meterialJsonFile="../json/meterial_b9.json"
+
+
+in_file = open(settingsJsonFile,"r")   
+settingsJson = json.load(in_file)
+in_file.close()
+
+in_file = open(meterialJsonFile,"r")   
+meterialJson = json.load(in_file)
+in_file.close()
+
+
+pub.sendMessage('Log', arg1='debug', arg2='json files loaded')
 
 
 #unzip input file
@@ -26,25 +42,29 @@ def myUnZip(inputfile,outpath):
 
     # end   
 
+
+myInputFile = ""
+
+for file in os.listdir(settingsJson["download_dir"]):
+    if file.endswith(".zip"):
+        myInputFile=file
+
+if (myInputFile == ""):
+ print ('no imput .zip file')
+ #log here
+ exit('no imput .zip file')
+
+#"/Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/Python/Temp"
+pub.sendMessage('Log', arg1='debug', arg2='input file is: '+settingsJson["download_dir"]+'/'+myInputFile)
+
 #unzip image files
-myUnZip(myInputFile,imageOutPath)
+myUnZip(settingsJson["download_dir"]+'/'+myInputFile,settingsJson["print_data_dir"])
 
-
+pub.sendMessage('Log', arg1='debug', arg2='input file unziped to: '+settingsJson["print_data_dir"])
 #number of image files
-number_of_slices = len([name for name in os.listdir(imageOutPath) if os.path.isfile(os.path.join(imageOutPath, name))])
+number_of_slices = len([name for name in os.listdir(settingsJson["print_data_dir"]) if os.path.isfile(os.path.join(settingsJson["print_data_dir"], name))])
 
-
-
-in_file = open(settingsJsonFile,"r")   
-settingsJson = json.load(in_file)
-in_file.close()
-
-in_file = open(meterialJsonFile,"r")   
-meterialJson = json.load(in_file)
-in_file.close()
-
-
-
+pub.sendMessage('Log', arg1='debug', arg2='number number_of_slices: '+ str(number_of_slices))
 
 gcodelist = []
 
@@ -68,14 +88,17 @@ for c in range(0,int(number_of_slices)):
 
 gcodelist.append(settingsJson["footer_code"])
 
-gcodefile = open("gcodefile.txt", 'w')
+gcodefile = open(settingsJson["print_data_dir"]+"/gcodefile.txt", 'w')
 
 for item in gcodelist:
   gcodefile.write("%s\n" % item)
   
 gcodefile.close()
 
-print "GCode List : ", gcodelist
+pub.sendMessage('Log', arg1='debug', arg2='gcode generated and saved to '+settingsJson["print_data_dir"]+"/gcodefile.txt")
+
+pub.sendMessage('Log', arg1='debug', arg2='*** gcodegenerator.py ended ***')
+#print "GCode List : ", gcodelist
 
 
 
