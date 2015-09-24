@@ -12,7 +12,7 @@
     <main>
     
         <div class="jumbotron">
-       
+        <form action="/createJob" method="post">
             <h3>Job Creator</h3>
 
             <div class="panel panel-default">
@@ -20,7 +20,7 @@
                   Print File:
                </div>
                <div class="panel-body">
-                  <%= printFile %>
+                  <font  color="red"><%= printFile %></font>
                </div>
             </div>
 
@@ -30,9 +30,9 @@
                   Select Meterial:
                </div>
                <div class="panel-body">
-                  <select>
-                      <option value="RedResin">B9 Creator Red Resin</option>
-                      <option value="Black">Fun to Do Blcak Resin</option>
+                  <select name='meterial'>
+                      <option value="meterial_b9.json">B9 Creator Red Resin</option>
+                      <option value="meterial_Funtodo_Black">Fun to Do Blcak Resin</option>
                       
                   </select>
                </div>
@@ -40,19 +40,15 @@
 
             <div class="panel panel-default">
                <div class="panel-heading">
-                  Select Profile:
+                  Printer Profile:
                </div>
                <div class="panel-body">
-                  <select>
-                      <option value="p1">Fine Detailed Profile</option>
-                      <option value="p2">Fast Profile</option>
-                      
-                  </select>
+                  printerSettings.json
                </div>
             </div>
 
-            <button type="button">Creat Job!</button>
-
+            <button type="submit" name='buttonCreateJob'>Creat Job!</button>
+        </form>
         </div>
     
     </main>

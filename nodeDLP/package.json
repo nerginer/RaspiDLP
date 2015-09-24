@@ -12,9 +12,9 @@
     "ejs": "~2.3.3",
     "express": "~4.13.1",
     "faye": "~1.1.2",
-    
     "morgan": "~1.6.1",
     "multer": "~0.1.6",
+    "python-shell": "^0.1.0",
     "serve-favicon": "~2.3.0"
   }
 }

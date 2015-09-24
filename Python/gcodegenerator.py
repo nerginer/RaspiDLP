@@ -7,6 +7,7 @@ from sys import exit
 import logger
 from pubsub import pub
 
+print 'gcodegenerator started'
 
 pub.sendMessage('Log', arg1='debug', arg2='*** gcodegenerator.py started ***')
 pub.sendMessage('Log', arg1='debug', arg2='*** ------------------------- ***')
@@ -88,14 +89,14 @@ for c in range(0,int(number_of_slices)):
 
 gcodelist.append(settingsJson["footer_code"])
 
-gcodefile = open(settingsJson["print_data_dir"]+"/gcodefile.txt", 'w')
+gcodefile = open(settingsJson["print_data_dir"]+"/printGcode.gcode", 'w')
 
 for item in gcodelist:
   gcodefile.write("%s\n" % item)
   
 gcodefile.close()
 
-pub.sendMessage('Log', arg1='debug', arg2='gcode generated and saved to '+settingsJson["print_data_dir"]+"/gcodefile.txt")
+pub.sendMessage('Log', arg1='debug', arg2='gcode generated and saved to '+settingsJson["print_data_dir"]+"/printGcode.gcode")
 
 pub.sendMessage('Log', arg1='debug', arg2='*** gcodegenerator.py ended ***')
 #print "GCode List : ", gcodelist

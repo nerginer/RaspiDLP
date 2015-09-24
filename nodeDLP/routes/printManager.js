@@ -3,7 +3,32 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('printManager', { title: 'Print Manager', printJob: 'Test.gcode' });
+  
+
+	var fs = require("fs"),
+	    path = require("path");
+
+
+	var files = fs.readdirSync('./printDataDir');
+
+
+
+	var fileDef= 'IMPORTANT: There is no gcode file in printDataDir use Job Creator to generate one';
+
+
+
+	files.forEach(function (file) {
+	        if (path.extname(file)=='.gcode'){
+	        	
+	        	fileDef= file;
+	        	//Document.getElementById("buttonCreateJob").disabled = false; 
+	        }
+	       
+	});
+
+
+
+	res.render('printManager', { title: 'Print Manager', printJob: fileDef });
 });
 
 module.exports = router;

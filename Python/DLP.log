@@ -31,3 +31,19 @@
 2015-09-24 15:45:47,434 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
 2015-09-24 15:45:47,435 DEBUG number number_of_slices: 99
 2015-09-24 15:45:47,436 DEBUG gcode generated and saved to /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir/gcodefile.txt
+2015-09-24 23:10:24,370 DEBUG *** gcodegenerator.py started ***
+2015-09-24 23:10:24,370 DEBUG *** ------------------------- ***
+2015-09-24 23:10:24,371 DEBUG json files loaded
+2015-09-24 23:10:24,371 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-24 23:10:24,404 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-24 23:10:24,405 DEBUG number number_of_slices: 99
+2015-09-24 23:10:24,407 DEBUG gcode generated and saved to /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir/gcodefile.txt
+2015-09-24 23:10:24,407 DEBUG *** gcodegenerator.py ended ***
+2015-09-24 23:10:30,558 DEBUG *** gcodegenerator.py started ***
+2015-09-24 23:10:30,558 DEBUG *** ------------------------- ***
+2015-09-24 23:10:30,558 DEBUG json files loaded
+2015-09-24 23:10:30,558 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-24 23:10:30,600 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-24 23:10:30,601 DEBUG number number_of_slices: 99
+2015-09-24 23:10:30,602 DEBUG gcode generated and saved to /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir/gcodefile.txt
+2015-09-24 23:10:30,603 DEBUG *** gcodegenerator.py ended ***
