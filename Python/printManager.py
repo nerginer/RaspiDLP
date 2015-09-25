@@ -4,9 +4,13 @@ import pygame
 from pygame.locals import *
 import logger
 import json
+import os
+import sys
 from pubsub import pub
+from bayeux.bayeux_client import BayeuxClient
 
-print 'printManager.py started'
+
+#print 'printManager.py started'
 
 pub.sendMessage('Log', arg1='debug', arg2='*** printManager.py started ***')
 pub.sendMessage('Log', arg1='debug', arg2='*** ------------------------- ***')
@@ -38,21 +42,39 @@ myBlackScreen.fill((0,0,0))
 #Mouse gozukmesin
 pygame.mouse.set_visible(0)
 
+state = 'play'
 
-
-
+def cb(data):
+    global state
+    print data['data']['text']
+    state = data['data']['text']
 
 def doPrint(baseFileName):
    # gameinit()
     pub.sendMessage('Log', arg1='debug', arg2='gameinit complated')
 #arguman olarak alinacak
-    
+    #faye client *********************
+    client = BayeuxClient('http://localhost:8000/faye')
+    client.register('/messages', cb)
+
+    client.start()
+    #faye client end *****************
 #    initSerial()
 
     fp=open(baseFileName,'r')
 
     lines=fp.readlines()
     for line in lines:
+        #pause
+        while (state == 'pause'):
+            pass
+            #belki buraya siyeh ekran yaip dururum
+            
+        #cancel or stop
+        if  (state == 'stop'):   
+            print 'print canceled'
+            return
+
         if ';<Slice>' in line :
             processSliceParam(line.split(' ')[1])
         if ';<Delay>' in line :
@@ -69,34 +91,38 @@ def doPrint(baseFileName):
 # function gcode sender
 def processGCode(line):
     if not line.isspace(): 
-        print 'GCode: '+line
+       pass
+       # print 'GCode: '+line
        # ser.write(line+'\n')
 
 
 # function to Delay
 def processDelay(var):
-    print 'Delaying for druation: '+var
+    #print 'Delaying for druation: '+var
     pygame.time.delay(int(var))
 
 # function to processSliceParam
 def processSliceParam(var):
-    print ('nuriiii:'+var)
     if 'Blank' in var :
         showBlank()
     else:
     #if var.isdigit():
         showSlide(var.rstrip('\r\n'))
         
+#number of image files
+number_of_slices = len([name for name in os.listdir(settingsJson["print_data_dir"]) if os.path.isfile(os.path.join(settingsJson["print_data_dir"], name))])
+number_of_slices = number_of_slices -1
+#burayi duzelt
 
 def showSlide(var):
-    print 'Showing slide number: '+var
+    print 'Layer: '+var+' of '+str(number_of_slices)
     # Load and set up graphics.
     background_image = pygame.image.load(settingsJson["print_data_dir"]+'/slice_'+var+'.png').convert()
     screen.blit(background_image, background_position)
     pygame.display.flip()
 
 def showBlank():
-    print 'Showing Blank'
+    #print 'Showing Blank'
     screen.blit(myBlackScreen, background_position)
     pygame.display.flip()
 
