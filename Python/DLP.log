@@ -47,3 +47,211 @@
 2015-09-24 23:10:30,601 DEBUG number number_of_slices: 99
 2015-09-24 23:10:30,602 DEBUG gcode generated and saved to /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir/gcodefile.txt
 2015-09-24 23:10:30,603 DEBUG *** gcodegenerator.py ended ***
+2015-09-25 12:13:33,674 DEBUG *** gcodegenerator.py started ***
+2015-09-25 12:13:33,675 DEBUG *** ------------------------- ***
+2015-09-25 12:13:33,675 DEBUG json files loaded
+2015-09-25 12:13:33,675 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 12:13:33,707 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 12:14:59,028 DEBUG *** gcodegenerator.py started ***
+2015-09-25 12:14:59,028 DEBUG *** ------------------------- ***
+2015-09-25 12:14:59,029 DEBUG json files loaded
+2015-09-25 12:14:59,029 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 12:14:59,067 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 12:15:30,418 DEBUG *** gcodegenerator.py started ***
+2015-09-25 12:15:30,418 DEBUG *** ------------------------- ***
+2015-09-25 12:15:30,418 DEBUG json files loaded
+2015-09-25 12:15:30,418 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 12:15:30,447 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 12:16:30,861 DEBUG *** gcodegenerator.py started ***
+2015-09-25 12:16:30,861 DEBUG *** ------------------------- ***
+2015-09-25 12:16:30,861 DEBUG json files loaded
+2015-09-25 12:16:30,861 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 12:16:30,895 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 12:18:09,343 DEBUG *** gcodegenerator.py started ***
+2015-09-25 12:18:09,343 DEBUG *** ------------------------- ***
+2015-09-25 12:18:09,343 DEBUG json files loaded
+2015-09-25 12:18:09,343 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 12:18:09,374 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 12:18:45,556 DEBUG *** gcodegenerator.py started ***
+2015-09-25 12:18:45,556 DEBUG *** ------------------------- ***
+2015-09-25 12:18:45,556 DEBUG json files loaded
+2015-09-25 12:18:45,557 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 12:18:45,594 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 12:57:07,238 DEBUG *** gcodegenerator.py started ***
+2015-09-25 12:57:07,238 DEBUG *** ------------------------- ***
+2015-09-25 12:57:07,238 DEBUG json files loaded
+2015-09-25 12:57:07,238 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 12:57:07,272 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 12:57:07,274 DEBUG number number_of_slices: 99
+2015-09-25 12:57:07,275 DEBUG gcode generated and saved to /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir/printGcode.gcode
+2015-09-25 12:57:07,275 DEBUG *** gcodegenerator.py ended ***
+2015-09-25 13:05:59,215 DEBUG *** gcodegenerator.py started ***
+2015-09-25 13:05:59,216 DEBUG *** ------------------------- ***
+2015-09-25 13:05:59,216 DEBUG json files loaded
+2015-09-25 13:05:59,216 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 13:05:59,290 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 13:05:59,291 DEBUG number number_of_slices: 100
+2015-09-25 13:05:59,293 DEBUG gcode generated and saved to /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir/printGcode.gcode
+2015-09-25 13:05:59,293 DEBUG *** gcodegenerator.py ended ***
+2015-09-25 13:06:30,868 DEBUG *** gcodegenerator.py started ***
+2015-09-25 13:06:30,868 DEBUG *** ------------------------- ***
+2015-09-25 13:06:30,868 DEBUG json files loaded
+2015-09-25 13:06:30,868 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 13:06:30,926 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 13:06:30,927 DEBUG number number_of_slices: 100
+2015-09-25 13:06:30,928 DEBUG gcode generated and saved to /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir/printGcode.gcode
+2015-09-25 13:06:30,929 DEBUG *** gcodegenerator.py ended ***
+2015-09-25 13:08:10,626 DEBUG *** printManager.py started ***
+2015-09-25 13:08:10,627 DEBUG *** ------------------------- ***
+2015-09-25 13:08:43,670 DEBUG *** printManager.py started ***
+2015-09-25 13:08:43,670 DEBUG *** ------------------------- ***
+2015-09-25 13:08:43,671 DEBUG json files loaded
+2015-09-25 13:08:58,778 DEBUG *** printManager.py started ***
+2015-09-25 13:08:58,778 DEBUG *** ------------------------- ***
+2015-09-25 13:08:58,778 DEBUG json files loaded
+2015-09-25 13:10:42,650 DEBUG *** printManager.py started ***
+2015-09-25 13:10:42,650 DEBUG *** ------------------------- ***
+2015-09-25 13:10:42,650 DEBUG json files loaded
+2015-09-25 13:10:42,650 DEBUG gameinit started
+2015-09-25 13:11:32,824 DEBUG *** printManager.py started ***
+2015-09-25 13:11:32,824 DEBUG *** ------------------------- ***
+2015-09-25 13:11:32,824 DEBUG json files loaded
+2015-09-25 13:11:32,824 DEBUG gameinit started
+2015-09-25 13:13:22,848 DEBUG *** printManager.py started ***
+2015-09-25 13:13:22,848 DEBUG *** ------------------------- ***
+2015-09-25 13:13:22,848 DEBUG json files loaded
+2015-09-25 13:13:22,848 DEBUG gameinit started
+2015-09-25 13:13:23,105 DEBUG gameinit complated
+2015-09-25 13:13:55,675 DEBUG *** printManager.py started ***
+2015-09-25 13:13:55,675 DEBUG *** ------------------------- ***
+2015-09-25 13:13:55,676 DEBUG json files loaded
+2015-09-25 13:13:55,676 DEBUG gameinit started
+2015-09-25 13:13:55,924 DEBUG gameinit complated
+2015-09-25 13:52:08,579 DEBUG *** printManager.py started ***
+2015-09-25 13:52:08,580 DEBUG *** ------------------------- ***
+2015-09-25 13:52:08,580 DEBUG json files loaded
+2015-09-25 13:52:08,580 DEBUG gameinit started
+2015-09-25 13:52:08,854 DEBUG gameinit complated
+2015-09-25 13:53:57,693 DEBUG *** printManager.py started ***
+2015-09-25 13:53:57,693 DEBUG *** ------------------------- ***
+2015-09-25 13:53:57,693 DEBUG json files loaded
+2015-09-25 13:53:57,694 DEBUG gameinit started
+2015-09-25 13:53:57,970 DEBUG gameinit complated
+2015-09-25 13:55:55,654 DEBUG *** gcodegenerator.py started ***
+2015-09-25 13:55:55,654 DEBUG *** ------------------------- ***
+2015-09-25 13:55:55,654 DEBUG json files loaded
+2015-09-25 13:55:55,654 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 13:55:55,712 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 13:55:55,713 DEBUG number number_of_slices: 100
+2015-09-25 13:55:55,714 DEBUG gcode generated and saved to /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir/printGcode.gcode
+2015-09-25 13:55:55,714 DEBUG *** gcodegenerator.py ended ***
+2015-09-25 13:56:17,590 DEBUG *** gcodegenerator.py started ***
+2015-09-25 13:56:17,590 DEBUG *** ------------------------- ***
+2015-09-25 13:56:17,591 DEBUG json files loaded
+2015-09-25 13:56:17,591 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 13:56:17,644 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 13:56:17,646 DEBUG number number_of_slices: 100
+2015-09-25 13:56:17,647 DEBUG gcode generated and saved to /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir/printGcode.gcode
+2015-09-25 13:56:17,647 DEBUG *** gcodegenerator.py ended ***
+2015-09-25 13:56:28,015 DEBUG *** printManager.py started ***
+2015-09-25 13:56:28,015 DEBUG *** ------------------------- ***
+2015-09-25 13:56:28,015 DEBUG json files loaded
+2015-09-25 13:56:28,015 DEBUG gameinit started
+2015-09-25 13:56:28,296 DEBUG gameinit complated
+2015-09-25 13:57:26,306 DEBUG *** gcodegenerator.py started ***
+2015-09-25 13:57:26,306 DEBUG *** ------------------------- ***
+2015-09-25 13:57:26,306 DEBUG json files loaded
+2015-09-25 13:57:26,306 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 13:57:26,362 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 13:57:26,363 DEBUG number number_of_slices: 100
+2015-09-25 13:57:26,364 DEBUG gcode generated and saved to /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir/printGcode.gcode
+2015-09-25 13:57:26,364 DEBUG *** gcodegenerator.py ended ***
+2015-09-25 13:58:08,240 DEBUG *** printManager.py started ***
+2015-09-25 13:58:08,240 DEBUG *** ------------------------- ***
+2015-09-25 13:58:08,241 DEBUG json files loaded
+2015-09-25 13:58:08,241 DEBUG gameinit started
+2015-09-25 13:58:08,489 DEBUG gameinit complated
+2015-09-25 13:59:17,528 DEBUG *** printManager.py started ***
+2015-09-25 13:59:17,528 DEBUG *** ------------------------- ***
+2015-09-25 13:59:17,528 DEBUG json files loaded
+2015-09-25 13:59:17,528 DEBUG gameinit started
+2015-09-25 13:59:17,810 DEBUG gameinit complated
+2015-09-25 14:00:42,724 DEBUG *** printManager.py started ***
+2015-09-25 14:00:42,724 DEBUG *** ------------------------- ***
+2015-09-25 14:00:42,724 DEBUG json files loaded
+2015-09-25 14:00:42,724 DEBUG gameinit started
+2015-09-25 14:00:42,993 DEBUG gameinit complated
+2015-09-25 14:01:49,605 DEBUG *** printManager.py started ***
+2015-09-25 14:01:49,605 DEBUG *** ------------------------- ***
+2015-09-25 14:01:49,605 DEBUG json files loaded
+2015-09-25 14:01:49,605 DEBUG gameinit started
+2015-09-25 14:01:49,875 DEBUG gameinit complated
+2015-09-25 14:02:37,790 DEBUG *** printManager.py started ***
+2015-09-25 14:02:37,790 DEBUG *** ------------------------- ***
+2015-09-25 14:02:37,790 DEBUG json files loaded
+2015-09-25 14:02:37,790 DEBUG gameinit started
+2015-09-25 14:02:38,050 DEBUG gameinit complated
+2015-09-25 14:03:52,622 DEBUG *** printManager.py started ***
+2015-09-25 14:03:52,622 DEBUG *** ------------------------- ***
+2015-09-25 14:03:52,622 DEBUG json files loaded
+2015-09-25 14:03:52,622 DEBUG gameinit started
+2015-09-25 14:03:52,890 DEBUG gameinit complated
+2015-09-25 14:04:52,641 DEBUG *** printManager.py started ***
+2015-09-25 14:04:52,641 DEBUG *** ------------------------- ***
+2015-09-25 14:04:52,641 DEBUG json files loaded
+2015-09-25 14:04:52,641 DEBUG gameinit started
+2015-09-25 14:04:52,910 DEBUG gameinit complated
+2015-09-25 14:05:44,954 DEBUG *** printManager.py started ***
+2015-09-25 14:05:44,954 DEBUG *** ------------------------- ***
+2015-09-25 14:05:44,954 DEBUG json files loaded
+2015-09-25 14:05:44,954 DEBUG gameinit started
+2015-09-25 14:05:45,199 DEBUG gameinit complated
+2015-09-25 14:06:24,345 DEBUG *** gcodegenerator.py started ***
+2015-09-25 14:06:24,345 DEBUG *** ------------------------- ***
+2015-09-25 14:06:24,345 DEBUG json files loaded
+2015-09-25 14:06:24,345 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 14:06:24,402 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 14:06:24,403 DEBUG number number_of_slices: 100
+2015-09-25 14:06:24,404 DEBUG gcode generated and saved to /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir/printGcode.gcode
+2015-09-25 14:06:24,405 DEBUG *** gcodegenerator.py ended ***
+2015-09-25 14:06:38,605 DEBUG *** printManager.py started ***
+2015-09-25 14:06:38,605 DEBUG *** ------------------------- ***
+2015-09-25 14:06:38,605 DEBUG json files loaded
+2015-09-25 14:06:38,605 DEBUG gameinit started
+2015-09-25 14:06:38,858 DEBUG gameinit complated
+2015-09-25 14:07:25,263 DEBUG *** gcodegenerator.py started ***
+2015-09-25 14:07:25,264 DEBUG *** ------------------------- ***
+2015-09-25 14:07:25,264 DEBUG json files loaded
+2015-09-25 14:07:25,264 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 14:07:25,321 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 14:07:25,322 DEBUG number number_of_slices: 100
+2015-09-25 14:07:25,323 DEBUG gcode generated and saved to /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir/printGcode.gcode
+2015-09-25 14:07:25,323 DEBUG *** gcodegenerator.py ended ***
+2015-09-25 14:07:30,137 DEBUG *** printManager.py started ***
+2015-09-25 14:07:30,137 DEBUG *** ------------------------- ***
+2015-09-25 14:07:30,137 DEBUG json files loaded
+2015-09-25 14:07:30,137 DEBUG gameinit started
+2015-09-25 14:07:30,435 DEBUG gameinit complated
+2015-09-25 14:09:28,307 DEBUG *** printManager.py started ***
+2015-09-25 14:09:28,308 DEBUG *** ------------------------- ***
+2015-09-25 14:09:28,308 DEBUG json files loaded
+2015-09-25 14:09:28,308 DEBUG gameinit started
+2015-09-25 14:09:28,601 DEBUG gameinit complated
+2015-09-25 14:12:53,801 DEBUG *** printManager.py started ***
+2015-09-25 14:12:53,802 DEBUG *** ------------------------- ***
+2015-09-25 14:12:53,802 DEBUG json files loaded
+2015-09-25 14:12:53,802 DEBUG gameinit started
+2015-09-25 14:12:54,058 DEBUG gameinit complated
+2015-09-25 14:14:19,035 DEBUG *** gcodegenerator.py started ***
+2015-09-25 14:14:19,035 DEBUG *** ------------------------- ***
+2015-09-25 14:14:19,035 DEBUG json files loaded
+2015-09-25 14:14:19,035 DEBUG input file is: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-09-25 14:14:19,092 DEBUG input file unziped to: /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir
+2015-09-25 14:14:19,093 DEBUG number number_of_slices: 100
+2015-09-25 14:14:19,094 DEBUG gcode generated and saved to /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir/printGcode.gcode
+2015-09-25 14:14:19,094 DEBUG *** gcodegenerator.py ended ***
+2015-09-25 14:14:21,301 DEBUG *** printManager.py started ***
+2015-09-25 14:14:21,301 DEBUG *** ------------------------- ***
+2015-09-25 14:14:21,302 DEBUG json files loaded
+2015-09-25 14:14:21,302 DEBUG gameinit started
+2015-09-25 14:14:21,610 DEBUG gameinit complated
