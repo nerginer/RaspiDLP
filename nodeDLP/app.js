@@ -104,6 +104,30 @@ app.post('/createJob', function(req, res){
 
 });
 
+app.post('/printManager', function(req, res){
+   
+    
+ 
+    var options = {
+      mode: 'text',
+      pythonPath: '/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python',
+      pythonOptions: ['-u'],
+      scriptPath: '/Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/Python/',
+      
+    };
+     
+    PythonShell.run('printManager.py', options, function (err, results) {
+      if (err) throw err;
+      // results is an array consisting of messages collected during execution 
+      console.log('results: %j', results);
+    });
+
+   
+
+    
+
+});
+
 
 
 

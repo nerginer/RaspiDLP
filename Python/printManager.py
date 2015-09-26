@@ -8,9 +8,7 @@ import os
 import sys
 from pubsub import pub
 from bayeux.bayeux_client import BayeuxClient
-
-
-#print 'printManager.py started'
+from urllib2 import Request, urlopen
 
 pub.sendMessage('Log', arg1='debug', arg2='*** printManager.py started ***')
 pub.sendMessage('Log', arg1='debug', arg2='*** ------------------------- ***')
@@ -23,8 +21,6 @@ in_file.close()
 
 pub.sendMessage('Log', arg1='debug', arg2='json files loaded')
 
-
-#def gameinit():
 pub.sendMessage('Log', arg1='debug', arg2='gameinit started')
 # Call this function so the Pygame library can initialize itself
 pygame.init()
@@ -50,18 +46,18 @@ def cb(data):
     state = data['data']['text']
 
 def doPrint(baseFileName):
-   # gameinit()
-    pub.sendMessage('Log', arg1='debug', arg2='gameinit complated')
-#arguman olarak alinacak
+
+    pub.sendMessage('Log', arg1='debug', arg2='faye client started')
+
     #faye client *********************
     client = BayeuxClient('http://localhost:8000/faye')
     client.register('/messages', cb)
 
     client.start()
     #faye client end *****************
-#    initSerial()
 
     fp=open(baseFileName,'r')
+    pub.sendMessage('Log', arg1='debug', arg2='gcode file opened')
 
     lines=fp.readlines()
     for line in lines:
@@ -69,7 +65,7 @@ def doPrint(baseFileName):
         while (state == 'pause'):
             pass
             #belki buraya siyeh ekran yaip dururum
-            
+
         #cancel or stop
         if  (state == 'stop'):   
             print 'print canceled'
@@ -114,8 +110,20 @@ number_of_slices = len([name for name in os.listdir(settingsJson["print_data_dir
 number_of_slices = number_of_slices -1
 #burayi duzelt
 
+def sendFayeMessage(myMessage):
+    values = '{"channel":"/status","data":{"text":"'+myMessage+'"}}'
+    #values = json.dumps(values)
+    headers = {"Content-Type": "application/json"}
+    request = Request("http://localhost:8000/faye", data=values, headers=headers)
+    response_body = urlopen(request).read()
+    print response_body
+
+   
+
 def showSlide(var):
-    print 'Layer: '+var+' of '+str(number_of_slices)
+    statusData = 'Layer: '+var+' of '+str(number_of_slices)
+    sendFayeMessage(statusData)
+    #print statusData
     # Load and set up graphics.
     background_image = pygame.image.load(settingsJson["print_data_dir"]+'/slice_'+var+'.png').convert()
     screen.blit(background_image, background_position)

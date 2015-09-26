@@ -33,6 +33,10 @@
                  <button onclick="playFunction()" name="print"type="button">Play</button>
                  <button onclick="pauseFunction()" name="print"type="button">Pause</button>
                  <button onclick="stopFunction()" name="print"type="button">Stop</button>
+                 <form action="/printManager" method="post">
+                  <button type="submit" name='buttonStartPrint'>Start Print</button>
+                 </form>
+
                </div>
             </div>
 
@@ -41,7 +45,7 @@
                   Status:
                </div>
                <div class="panel-body">
-                  Printing : Layer 36 of 822
+                  <h4 id="status">Printing : Layer 36 of 822</h4>
                </div>
             </div>
 
