@@ -8,6 +8,8 @@ password:raspberry
 
 1- Install Nodejs
 ```sh
+curl -sLS https://apt.adafruit.com/add | sudo bash
+
 sudo apt-get install nodejs
 ```
 to understand if it instaled correctly
