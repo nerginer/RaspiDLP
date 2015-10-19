@@ -8,7 +8,7 @@ password:raspberry
 
 1- Install Nodejs
 ```sh
-sudo apt-get install node
+sudo apt-get install nodejs
 ```
 to understand if it instaled correctly
 ```sh
