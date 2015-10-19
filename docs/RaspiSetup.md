@@ -10,3 +10,7 @@ password:raspberry
 ```sh
 sudo apt-get install node
 ```
+to understand if it instaled correctly
+```sh
+node -v
+```
