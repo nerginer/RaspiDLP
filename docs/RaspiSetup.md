@@ -7,9 +7,13 @@ ssh pi@raspiIPaddress
 password:raspberry
 
 ssh key and mount pi as a directory on my mac and installing the node from source this tutorial is great
+
 https://www.youtube.com/watch?v=J6g53Hm0rq4
+
 important commands
+
 scp id_rsa.pub pi@192.168.1.108:.ssh/authorized_keys
+
 sshfs pi@192.168.1.108: DLPpi
 
 
@@ -18,10 +22,15 @@ sshfs pi@192.168.1.108: DLPpi
 the code from :
 http://www.andrewconnell.com/blog/setup-node-js-on-raspberry-pi-2-b
 
+
 sudo apt-get update
+
 sudo apt-get upgrade
+
 wget http://node-arm.herokuapp.com/node_latest_armhf.deb
+
 sudo dpkg -i node_latest_armhf.deb
+
 
 
 to understand if it instaled correctly
