@@ -38,4 +38,19 @@ to understand if it instaled correctly
 node -v
 ```
 
+**Faye Instalation**
+make a directory called faye under main directory DLP
+copy fave_server.js
+```sh
+sudo npm install faye --save
+node fave_server.js
+```
 
+
+**DIR Structure**
+
+-DLP
+  -faye
+    fave_server.js
+    
+    
