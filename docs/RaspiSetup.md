@@ -45,6 +45,19 @@ copy fave_server.js
 sudo npm install faye --save
 node fave_server.js
 ```
+**Faye Server Auto start**
+which node
+This gave me :
+
+/usr/local/bin/node
+Open crontab config:
+
+sudo crontab -e
+Then in my crontab :
+
+@reboot sudo /usr/local/bin/node /home/pi/DLP/faye/fave_server.js & 
+Save, reboot
+
 
 
 **DIR Structure**
