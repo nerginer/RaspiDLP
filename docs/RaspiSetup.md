@@ -63,7 +63,11 @@ Save, reboot
 sudo git clone https://github.com/nerginer/RaspiDLP.git
 ```
 
-
+**Install Python dependencies**
+install pubsub
+```sh
+sudo easy_install -Z pypubsub
+```
 
 **DIR Structure**
 
