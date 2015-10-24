@@ -58,6 +58,11 @@ Then in my crontab :
 @reboot sudo /usr/local/bin/node /home/pi/DLP/faye/fave_server.js & 
 Save, reboot
 
+** Install code repo**
+```sh
+sudo git clone https://github.com/nerginer/RaspiDLP.git
+```
+
 
 
 **DIR Structure**
