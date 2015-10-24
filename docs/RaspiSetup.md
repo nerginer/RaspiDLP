@@ -68,6 +68,23 @@ install pubsub
 ```sh
 sudo easy_install -Z pypubsub
 ```
+install zope.interface
+download source from
+https://pypi.python.org/pypi/zope.interface/4.1.3#downloads
+sudo python setup.py install
+
+install python dev
+sudo apt-get install python-dev
+
+install twisted
+download source from
+http://twistedmatrix.com/trac/
+sudo python setup.py install
+
+install python-bayeux-client
+https://github.com/dkmadigan/python-bayeux-client.git
+sudo python setup.py install
+
 
 **DIR Structure**
 
