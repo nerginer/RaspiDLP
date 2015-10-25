@@ -85,6 +85,25 @@ install python-bayeux-client
 https://github.com/dkmadigan/python-bayeux-client.git
 sudo python setup.py install
 
+** Screen Blank**
+sudo nano /etc/kbd/config
+
+Change these two lines.
+
+# screen blanking timeout. monitor remains on, but the screen is cleared to
+# range: 0-60 min (0==never) kernels I've looked at default to 10 minutes.
+# (see linux/drivers/char/console.c)
+BLANK_TIME=0 (Was 30)
+
+# Powerdown time. The console will go to DPMS Off mode POWERDOWN_TIME
+# minutes _after_ blanking. (POWERDOWN_TIME + BLANK_TIME after the last input)
+POWERDOWN_TIME=0 (I think it was 15)
+
+Re start the file or just reboot
+sudo /etc/init.d/kbd restart
+
+*****************************
+
 
 **DIR Structure**
 
