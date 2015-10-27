@@ -8,7 +8,10 @@ var routes = require('./routes/index');
 var upload = require('./routes/upload');
 var printManager = require('./routes/printManager');
 var jobCreator = require('./routes/jobCreator');
-var profiles = require('./routes/profiles');
+var meterials = require('./routes/meterials');
+var printerProfile = require('./routes/printerProfile');
+
+
 var PythonShell = require('python-shell');
 
 var app = express();
@@ -135,7 +138,9 @@ app.use('/', routes);
 app.use('/upload', upload);
 app.use('/printManager', printManager);
 app.use('/jobCreator', jobCreator);
-app.use('/profiles', profiles);
+app.use('/meterials', meterials);
+app.use('/printerProfile', printerProfile);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -3,7 +3,9 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('profiles', { title: 'Profiles' });
+  res.render('printerProfile', { title: 'Printer Profile' });
 });
 
 module.exports = router;
+
+

@@ -11,8 +11,31 @@
 
     <main>
         <div class="jumbotron">
-            <h1>This is great</h1>
-            <p>Welcome to templating using EJS</p>
+            
+            <p>Gnexlab DLP Controller ver:0.1</p>
+            
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  Printer Status : Online
+               </div>
+               <div class="panel-body">
+                   <form action="/foo" method="post">
+                      <button type="button">Play</button>
+                      <button type="button">Stop</button>
+                      <button type="button">Cancel</button>
+                   </form>
+               </div>
+            </div>
+            
+             <div class="panel panel-default">
+               <div class="panel-heading">
+                  Printing File : No Print Job
+               </div>
+               <div class="panel-body">
+                  <h4 id="status">Layer 36 of 822</h4>
+               </div>
+            </div>
+            
         </div>
     </main>
 
