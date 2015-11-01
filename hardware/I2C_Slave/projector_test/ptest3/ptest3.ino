@@ -38,12 +38,12 @@ projectorSerial.begin(9600);
 
 Serial.println("Gnexlab DLP Controller v0.1");  
   
-  
+ 
 }
 
 void loop() { // run over and over
 //HandleProjectorComm_Vivitek_D535(); 
-delay(100);
+delay(10);
 }
 
 void projectorRxChange() {cli(); projectorSerial.do_interrupt(); sei();}
@@ -124,23 +124,33 @@ void HandleProjectorComm_Vivitek_D535() {
 
 // callback for received data
 void receiveData(int byteCount){
+   command =""; 
+  
+   int numOfBytes = Wire.available();
+   byte b = Wire.read();  //cmd
+   
+   Serial.print("cmd: ");
+   Serial.println(b);
+   
+   for(int i=0; i<numOfBytes-1; i++){
+      char data = Wire.read();
+     
+      command +=data;
+   } 
+  
 
-  
-  while( Wire.available()){
-  command += (char)Wire.read();
-  
-  }
 
   
   Serial.print("I2C received: ");
   Serial.println(command);
-
-  if (command == "~PF\r"){
-    projectorOFF();
-  }
   
-  if (command == "~PN\r"){
+   
+  if (command=="PON"){
     projectorON();
+  }
+   
+  if (command=="POFF"){
+    projectorOFF();
   }
   
 
