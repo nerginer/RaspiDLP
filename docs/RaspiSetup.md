@@ -103,7 +103,9 @@ Re start the file or just reboot
 sudo /etc/init.d/kbd restart
 
 \*****************************
-
+ip.py show ip
+@reboot sudo /usr/bin/python /home/pi/DLP/RaspiDLP/Python/i2c/lcd/ip.py &
+***************
 
 **DIR Structure**
 

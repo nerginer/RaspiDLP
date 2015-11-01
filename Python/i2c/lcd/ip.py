@@ -15,8 +15,9 @@ def run_cmd(cmd):
 	print output.splitlines()[0]
 	return output.splitlines()[0]
 
+sleep(5)
+lcd.lcd_display_string("Starting...", 2) 
+sleep(5)
 
 ipaddr = run_cmd(myip)
 lcd.lcd_display_string("IP:%s" % ipaddr, 2) 
-
-
