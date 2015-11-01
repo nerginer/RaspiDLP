@@ -152,6 +152,7 @@ void receiveData(int byteCount){
   if (command=="POFF"){
     projectorOFF();
   }
+  test
   
 
 }
@@ -161,5 +162,6 @@ void sendData(){
  HandleProjectorComm_Vivitek_D535();  
  Wire.write(sData.c_str());
 }
+
 
 
