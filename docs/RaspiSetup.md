@@ -58,7 +58,54 @@ Then in my crontab :
 @reboot sudo /usr/local/bin/node /home/pi/DLP/faye/fave_server.js & 
 Save, reboot
 
+** Install code repo**
+```sh
+sudo git clone https://github.com/nerginer/RaspiDLP.git
+```
 
+**Install Python dependencies**
+install pubsub
+```sh
+sudo easy_install -Z pypubsub
+```
+install zope.interface
+download source from
+https://pypi.python.org/pypi/zope.interface/4.1.3#downloads
+sudo python setup.py install
+
+install python dev
+sudo apt-get install python-dev
+
+install twisted
+download source from
+http://twistedmatrix.com/trac/
+sudo python setup.py install
+
+install python-bayeux-client
+https://github.com/dkmadigan/python-bayeux-client.git
+sudo python setup.py install
+
+** Screen Blank**
+sudo nano /etc/kbd/config
+
+Change these two lines.
+
+\# screen blanking timeout. monitor remains on, but the screen is cleared to
+\# range: 0-60 min (0==never) kernels I've looked at default to 10 minutes.
+\# (see linux/drivers/char/console.c)
+BLANK_TIME=0 (Was 30)
+
+\# Powerdown time. The console will go to DPMS Off mode POWERDOWN_TIME
+\# minutes _after_ blanking. (POWERDOWN_TIME + BLANK_TIME after the last input)
+POWERDOWN_TIME=0 (I think it was 15)
+
+Re start the file or just reboot
+sudo /etc/init.d/kbd restart
+
+\*****************************
+ip.py show ip
+@reboot sudo /usr/bin/python /home/pi/DLP/RaspiDLP/Python/i2c/lcd/ip.py &
+***************
 
 **DIR Structure**
 

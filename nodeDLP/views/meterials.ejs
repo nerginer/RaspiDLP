@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include head %>
+    <script type="text/javascript" src="/javascripts/jsonform/deps/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/jsonform/deps/underscore.js"></script>
+    <script type="text/javascript" src="/javascripts/jsonform/deps/opt/jsv.js"></script>
+    <script type="text/javascript" src="/javascripts/jsonform/lib/jsonform.js"></script>
+</head>
+<body class="container">
+
+    <header>
+        <% include header %>
+    </header>
+
+    <main>
+    
+        <div class="jumbotron">
+            
+            <h3>Meterials</h3>
+             <div class="panel panel-default">
+               <div class="panel-heading">
+                  List of Meterials:
+               </div>
+               <div class="panel-body">
+               
+                    <form action="">
+                        <input type="radio" name="m1" value="mv1">B9 Creator Red Resin<br>
+                        <input type="radio" name="m1" value="mv2">Fan to do Black Resin<br>
+                        <input type="radio" name="m1" value="mv3">B9 Creator Black Resin<br>
+                        <input type="radio" name="m1" value="mv4">Test resin 
+                    </form>
+                 
+                   
+
+               </div>
+            </div>
+
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  
+               </div>
+               <div class="panel-body">
+                   <form action="/foo" method="post">
+                      <button type="button">Add New</button>
+                      <button type="button">Edit</button>
+                      <button type="button">Delete</button>
+                   </form>
+               </div>
+            </div>
+
+           
+
+        </div>
+    
+    </main>
+
+    <footer>
+        <% include footer %>
+    </footer>
+    
+</body>
+</html>

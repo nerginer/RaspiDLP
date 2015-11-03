@@ -13,32 +13,38 @@
     
         <div class="jumbotron">
    
-            <h3>Print Manager</h3>
+            <h3>Printer Profile</h3>
 
             <div class="panel panel-default">
                <div class="panel-heading">
-                  Print Job:
+                  Edit Printer Profile:
                </div>
                <div class="panel-body">
-                  <%= printJob %>
+                   
+                   <textarea rows="5" cols="50">
+                              "projector_res_h": "1024",
+                              "projector_res_w": "768",
+                              "build_table_x": "51.2",
+                              "build_table_y": "38.4",
+                </textarea>
+
                </div>
             </div>
-
             <div class="panel panel-default">
                <div class="panel-heading">
-                
+                 
                </div>
                <div class="panel-body">
-                 
-                 
-                 <form action="/printManager" method="post">
-                  <button type="submit" name='buttonStartPrint'>Start Print</button>
-                 </form>
-
+                   <form action="/foo" method="post">
+                      <button type="button">Save</button>
+                      
+                   </form>
                </div>
             </div>
 
-        
+   
+
+   
 
 
         </div>
