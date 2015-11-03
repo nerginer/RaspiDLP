@@ -14,39 +14,51 @@
         <div class="jumbotron">
         <form action="/createJob" method="post">
             <h3>Job Creator</h3>
-
+            
             <div class="panel panel-default">
-               <div class="panel-heading">
-                  Print File:
-               </div>
-               <div class="panel-body">
-                  <font  color="red"><%= printFile %></font>
-               </div>
+                   <div class="panel-heading">
+                      Job Name:
+                   </div>
+                   <div class="panel-body">
+                    
+                      <input type="text" name="jobName">
+                      <br>
+                   </div>
+                
+    
+                
+                   <div class="panel-heading">
+                      Print File:
+                   </div>
+                   <div class="panel-body">
+                      <font  color="red"><%= printFile %></font>
+                   </div>
+              
+    
+    
+               
+                   <div class="panel-heading">
+                      Select Meterial:
+                   </div>
+                   <div class="panel-body">
+                      <select name='meterial'>
+                          <option value="meterial_b9.json">B9 Creator Red Resin</option>
+                          <option value="meterial_Funtodo_Black">Fun to Do Blcak Resin</option>
+                          
+                      </select>
+                   </div>
+                
+    
+                
+                   <div class="panel-heading">
+                      Printer Profile:
+                   </div>
+                   <div class="panel-body">
+                      printerSettings.json
+                   </div>
+            
             </div>
-
-
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  Select Meterial:
-               </div>
-               <div class="panel-body">
-                  <select name='meterial'>
-                      <option value="meterial_b9.json">B9 Creator Red Resin</option>
-                      <option value="meterial_Funtodo_Black">Fun to Do Blcak Resin</option>
-                      
-                  </select>
-               </div>
-            </div>
-
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  Printer Profile:
-               </div>
-               <div class="panel-body">
-                  printerSettings.json
-               </div>
-            </div>
-
+            
             <button type="submit" name='buttonCreateJob'>Creat Job!</button>
         </form>
         </div>
