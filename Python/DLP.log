@@ -471,3 +471,103 @@
 2015-09-26 14:26:03,636 DEBUG gameinit started
 2015-09-26 14:26:03,850 DEBUG faye client started
 2015-09-26 14:26:03,850 DEBUG gcode file opened
+2015-10-24 14:04:44,493 DEBUG *** printManager.py started ***
+2015-10-24 14:04:44,496 DEBUG *** ------------------------- ***
+2015-10-24 14:04:44,501 DEBUG json files loaded
+2015-10-24 14:04:44,504 DEBUG gameinit started
+2015-10-24 14:16:59,109 DEBUG *** printManager.py started ***
+2015-10-24 14:16:59,113 DEBUG *** ------------------------- ***
+2015-10-24 14:16:59,117 DEBUG json files loaded
+2015-10-24 14:16:59,120 DEBUG gameinit started
+2015-10-24 14:16:59,551 DEBUG faye client started
+2015-10-24 14:16:59,561 DEBUG gcode file opened
+2015-10-24 14:20:25,211 DEBUG *** printManager.py started ***
+2015-10-24 14:20:25,215 DEBUG *** ------------------------- ***
+2015-10-24 14:20:25,219 DEBUG json files loaded
+2015-10-24 14:20:25,222 DEBUG gameinit started
+2015-10-24 14:20:25,683 DEBUG faye client started
+2015-10-24 14:20:25,694 DEBUG gcode file opened
+2015-10-24 14:28:11,218 DEBUG *** printManager.py started ***
+2015-10-24 14:28:11,222 DEBUG *** ------------------------- ***
+2015-10-24 14:28:11,227 DEBUG json files loaded
+2015-10-24 14:28:11,230 DEBUG gameinit started
+2015-10-24 14:28:11,687 DEBUG faye client started
+2015-10-24 14:28:11,699 DEBUG gcode file opened
+2015-10-24 14:33:35,295 DEBUG *** printManager.py started ***
+2015-10-24 14:33:35,299 DEBUG *** ------------------------- ***
+2015-10-24 14:33:35,315 DEBUG json files loaded
+2015-10-24 14:33:35,318 DEBUG gameinit started
+2015-10-24 14:33:35,846 DEBUG faye client started
+2015-10-24 14:33:35,857 DEBUG gcode file opened
+2015-10-24 14:53:19,029 DEBUG *** printManager.py started ***
+2015-10-24 14:53:19,033 DEBUG *** ------------------------- ***
+2015-10-24 14:53:19,037 DEBUG json files loaded
+2015-10-24 14:53:19,040 DEBUG gameinit started
+2015-10-24 14:53:19,475 DEBUG faye client started
+2015-10-24 14:53:19,485 DEBUG gcode file opened
+2015-10-24 14:53:43,549 DEBUG *** printManager.py started ***
+2015-10-24 14:53:43,553 DEBUG *** ------------------------- ***
+2015-10-24 14:53:43,557 DEBUG json files loaded
+2015-10-24 14:53:43,560 DEBUG gameinit started
+2015-10-24 14:53:43,997 DEBUG faye client started
+2015-10-24 14:53:44,008 DEBUG gcode file opened
+2015-10-24 18:29:27,402 DEBUG *** printManager.py started ***
+2015-10-24 18:29:27,407 DEBUG *** ------------------------- ***
+2015-10-24 18:29:27,412 DEBUG json files loaded
+2015-10-24 18:29:27,415 DEBUG gameinit started
+2015-10-24 18:29:27,852 DEBUG faye client started
+2015-10-24 18:29:27,862 DEBUG gcode file opened
+2015-10-24 18:29:46,618 DEBUG *** printManager.py started ***
+2015-10-24 18:29:46,621 DEBUG *** ------------------------- ***
+2015-10-24 18:29:46,626 DEBUG json files loaded
+2015-10-24 18:29:46,640 DEBUG gameinit started
+2015-10-24 18:29:47,184 DEBUG faye client started
+2015-10-24 18:29:47,195 DEBUG gcode file opened
+2015-10-25 14:11:11,122 DEBUG *** printManager.py started ***
+2015-10-25 14:11:11,125 DEBUG *** ------------------------- ***
+2015-10-25 14:11:11,138 DEBUG json files loaded
+2015-10-25 14:11:11,140 DEBUG gameinit started
+2015-10-25 14:11:11,519 DEBUG faye client started
+2015-10-25 14:11:11,526 DEBUG gcode file opened
+2015-10-25 15:13:14,626 DEBUG *** printManager.py started ***
+2015-10-25 15:13:14,630 DEBUG *** ------------------------- ***
+2015-10-25 15:14:46,651 DEBUG *** printManager.py started ***
+2015-10-25 15:14:46,655 DEBUG *** ------------------------- ***
+2015-10-25 15:15:10,403 DEBUG *** printManager.py started ***
+2015-10-25 15:15:10,407 DEBUG *** ------------------------- ***
+2015-10-25 15:16:11,360 DEBUG *** printManager.py started ***
+2015-10-25 15:16:11,364 DEBUG *** ------------------------- ***
+2015-10-25 15:16:11,401 DEBUG json files loaded
+2015-10-25 15:16:11,405 DEBUG gameinit started
+2015-10-25 15:16:11,783 DEBUG faye client started
+2015-10-25 15:16:11,793 DEBUG gcode file opened
+2015-10-25 15:18:48,742 DEBUG *** printManager.py started ***
+2015-10-25 15:18:48,746 DEBUG *** ------------------------- ***
+2015-10-25 15:18:48,784 DEBUG json files loaded
+2015-10-25 15:18:48,788 DEBUG gameinit started
+2015-10-25 15:18:49,157 DEBUG faye client started
+2015-10-25 15:18:49,167 DEBUG gcode file opened
+2015-10-26 17:18:03,755 DEBUG *** printManager.py started ***
+2015-10-26 17:18:03,759 DEBUG *** ------------------------- ***
+2015-10-26 17:18:03,798 DEBUG json files loaded
+2015-10-26 17:18:03,802 DEBUG gameinit started
+2015-10-26 17:18:04,157 DEBUG faye client started
+2015-10-26 17:18:04,168 DEBUG gcode file opened
+2015-10-26 17:26:34,786 DEBUG *** printManager.py started ***
+2015-10-26 17:26:34,793 DEBUG *** ------------------------- ***
+2015-10-26 17:26:34,833 DEBUG json files loaded
+2015-10-26 17:26:34,835 DEBUG gameinit started
+2015-10-26 17:26:35,208 DEBUG faye client started
+2015-10-26 17:26:35,218 DEBUG gcode file opened
+2015-10-26 17:29:06,144 DEBUG *** printManager.py started ***
+2015-10-26 17:29:06,146 DEBUG *** ------------------------- ***
+2015-10-26 17:29:06,184 DEBUG json files loaded
+2015-10-26 17:29:06,187 DEBUG gameinit started
+2015-10-26 17:29:06,565 DEBUG faye client started
+2015-10-26 17:29:06,575 DEBUG gcode file opened
+2015-11-03 16:51:24,857 DEBUG *** printManager.py started ***
+2015-11-03 16:51:24,861 DEBUG *** ------------------------- ***
+2015-11-03 16:51:24,910 DEBUG json files loaded
+2015-11-03 16:51:24,913 DEBUG gameinit started
+2015-11-03 16:51:25,242 DEBUG faye client started
+2015-11-03 16:51:25,252 DEBUG gcode file opened

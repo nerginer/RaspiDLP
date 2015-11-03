@@ -258,3 +258,99 @@
 2015-09-26 11:46:15,308 DEBUG number number_of_slices: 100
 2015-09-26 11:46:15,310 DEBUG gcode generated and saved to /Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir/printGcode.gcode
 2015-09-26 11:46:15,310 DEBUG *** gcodegenerator.py ended ***
+2015-10-24 18:28:38,003 DEBUG *** printManager.py started ***
+2015-10-24 18:28:38,007 DEBUG *** ------------------------- ***
+2015-10-24 18:28:38,013 DEBUG json files loaded
+2015-10-24 18:28:38,015 DEBUG gameinit started
+2015-10-24 18:32:03,654 DEBUG *** printManager.py started ***
+2015-10-24 18:32:03,657 DEBUG *** ------------------------- ***
+2015-10-24 18:32:03,662 DEBUG json files loaded
+2015-10-24 18:32:03,665 DEBUG gameinit started
+2015-10-24 18:32:04,091 DEBUG faye client started
+2015-10-24 18:32:04,102 DEBUG gcode file opened
+2015-10-24 18:47:02,657 DEBUG *** printManager.py started ***
+2015-10-24 18:47:02,661 DEBUG *** ------------------------- ***
+2015-10-24 18:47:02,665 DEBUG json files loaded
+2015-10-24 18:47:02,668 DEBUG gameinit started
+2015-10-24 18:47:03,099 DEBUG faye client started
+2015-10-24 18:47:03,111 DEBUG gcode file opened
+2015-10-24 18:47:38,993 DEBUG *** printManager.py started ***
+2015-10-24 18:47:38,997 DEBUG *** ------------------------- ***
+2015-10-24 18:47:39,003 DEBUG json files loaded
+2015-10-24 18:47:39,007 DEBUG gameinit started
+2015-10-24 18:51:54,929 DEBUG *** gcodegenerator.py started ***
+2015-10-24 18:51:54,938 DEBUG *** ------------------------- ***
+2015-10-24 18:51:54,956 DEBUG json files loaded
+2015-10-24 18:51:54,961 DEBUG input file is: /home/pi/DLP/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-10-24 18:51:56,447 DEBUG input file unziped to: /home/pi/DLP/RaspiDLP/nodeDLP/printDataDir
+2015-10-24 18:51:56,516 DEBUG number number_of_slices: 100
+2015-10-24 18:51:56,648 DEBUG gcode generated and saved to /home/pi/DLP/RaspiDLP/nodeDLP/printDataDir/printGcode.gcode
+2015-10-24 18:51:56,656 DEBUG *** gcodegenerator.py ended ***
+2015-10-24 18:52:16,017 DEBUG *** printManager.py started ***
+2015-10-24 18:52:16,023 DEBUG *** ------------------------- ***
+2015-10-24 18:52:16,029 DEBUG json files loaded
+2015-10-24 18:52:16,033 DEBUG gameinit started
+2015-10-24 18:52:16,541 DEBUG faye client started
+2015-10-24 18:52:16,561 DEBUG gcode file opened
+2015-10-24 18:54:08,005 DEBUG *** printManager.py started ***
+2015-10-24 18:54:08,011 DEBUG *** ------------------------- ***
+2015-10-24 18:54:08,019 DEBUG json files loaded
+2015-10-24 18:54:08,023 DEBUG gameinit started
+2015-10-24 18:55:01,539 DEBUG *** printManager.py started ***
+2015-10-24 18:55:01,547 DEBUG *** ------------------------- ***
+2015-10-24 18:55:01,557 DEBUG json files loaded
+2015-10-24 18:55:01,564 DEBUG gameinit started
+2015-10-24 18:55:40,051 DEBUG faye client started
+2015-10-24 18:55:40,057 DEBUG faye client started
+2015-10-24 18:55:40,118 DEBUG gcode file opened
+2015-10-24 18:55:40,126 DEBUG gcode file opened
+2015-10-25 15:06:07,028 DEBUG *** printManager.py started ***
+2015-10-25 15:06:07,032 DEBUG *** ------------------------- ***
+2015-10-25 15:06:07,038 DEBUG json files loaded
+2015-10-25 15:06:07,041 DEBUG gameinit started
+2015-10-25 15:06:07,478 DEBUG faye client started
+2015-10-25 15:06:07,488 DEBUG gcode file opened
+2015-10-25 15:08:03,047 DEBUG *** printManager.py started ***
+2015-10-25 15:08:03,051 DEBUG *** ------------------------- ***
+2015-10-25 15:08:03,057 DEBUG json files loaded
+2015-10-25 15:08:03,060 DEBUG gameinit started
+2015-10-25 15:08:53,120 DEBUG faye client started
+2015-10-25 15:08:53,131 DEBUG gcode file opened
+2015-10-26 17:08:17,198 DEBUG *** printManager.py started ***
+2015-10-26 17:08:17,201 DEBUG *** ------------------------- ***
+2015-10-26 17:08:17,257 DEBUG json files loaded
+2015-10-26 17:08:17,260 DEBUG gameinit started
+2015-10-26 17:08:17,685 DEBUG faye client started
+2015-10-26 17:08:17,695 DEBUG gcode file opened
+2015-10-26 17:09:18,630 DEBUG *** printManager.py started ***
+2015-10-26 17:09:18,635 DEBUG *** ------------------------- ***
+2015-10-26 17:09:18,681 DEBUG json files loaded
+2015-10-26 17:09:18,684 DEBUG gameinit started
+2015-10-26 17:09:59,710 DEBUG faye client started
+2015-10-26 17:09:59,739 DEBUG gcode file opened
+2015-10-26 17:10:58,087 DEBUG *** printManager.py started ***
+2015-10-26 17:10:58,091 DEBUG *** ------------------------- ***
+2015-10-26 17:10:58,130 DEBUG json files loaded
+2015-10-26 17:10:58,133 DEBUG gameinit started
+2015-10-26 17:10:58,489 DEBUG faye client started
+2015-10-26 17:10:58,500 DEBUG gcode file opened
+2015-10-26 17:15:49,529 DEBUG *** printManager.py started ***
+2015-10-26 17:15:49,532 DEBUG *** ------------------------- ***
+2015-10-26 17:15:49,571 DEBUG json files loaded
+2015-10-26 17:15:49,574 DEBUG gameinit started
+2015-10-26 17:15:49,926 DEBUG faye client started
+2015-10-26 17:15:49,937 DEBUG gcode file opened
+2015-10-26 18:18:03,490 DEBUG *** gcodegenerator.py started ***
+2015-10-26 18:18:03,493 DEBUG *** ------------------------- ***
+2015-10-26 18:18:03,510 DEBUG json files loaded
+2015-10-26 18:18:03,514 DEBUG input file is: /home/pi/DLP/RaspiDLP/nodeDLP/downloadDir/Archive.zip
+2015-10-26 18:18:04,527 DEBUG input file unziped to: /home/pi/DLP/RaspiDLP/nodeDLP/printDataDir
+2015-10-26 18:18:04,560 DEBUG number number_of_slices: 100
+2015-10-26 18:18:04,597 DEBUG gcode generated and saved to /home/pi/DLP/RaspiDLP/nodeDLP/printDataDir/printGcode.gcode
+2015-10-26 18:18:04,600 DEBUG *** gcodegenerator.py ended ***
+2015-11-03 17:12:16,429 DEBUG *** printManager.py started ***
+2015-11-03 17:12:16,433 DEBUG *** ------------------------- ***
+2015-11-03 17:12:16,468 DEBUG json files loaded
+2015-11-03 17:12:16,471 DEBUG gameinit started
+2015-11-03 17:13:00,672 DEBUG faye client started
+2015-11-03 17:13:00,682 DEBUG gcode file opened

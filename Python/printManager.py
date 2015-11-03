@@ -9,9 +9,18 @@ import sys
 from pubsub import pub
 from bayeux.bayeux_client import BayeuxClient
 from urllib2 import Request, urlopen
+import Motion
+
+
 
 pub.sendMessage('Log', arg1='debug', arg2='*** printManager.py started ***')
 pub.sendMessage('Log', arg1='debug', arg2='*** ------------------------- ***')
+
+#wake up screen
+
+os.system("xset s activate")
+
+
 
 settingsJsonFile="../json/printerSettings.json"
 
@@ -87,7 +96,7 @@ def doPrint(baseFileName):
 # function gcode sender
 def processGCode(line):
     if not line.isspace(): 
-       pass
+       pub.sendMessage('Motion', arg1=line)
        # print 'GCode: '+line
        # ser.write(line+'\n')
 

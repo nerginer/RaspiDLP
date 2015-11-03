@@ -82,9 +82,9 @@ app.post('/createJob', function(req, res){
  
     var options = {
       mode: 'text',
-      pythonPath: '/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python',
+      pythonPath: '/usr/bin/python',
       pythonOptions: ['-u'],
-      scriptPath: '/Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/Python/',
+      scriptPath: '/home/pi/DLP/RaspiDLP/Python',
       args: [meterial]
     };
      
@@ -110,9 +110,9 @@ app.post('/printManager', function(req, res){
  
     var options = {
       mode: 'text',
-      pythonPath: '/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python',
+      pythonPath: '/usr/bin/python',
       pythonOptions: ['-u'],
-      scriptPath: '/Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/Python/',
+      scriptPath: '/home/pi/DLP/RaspiDLP/Python',
       
     };
      

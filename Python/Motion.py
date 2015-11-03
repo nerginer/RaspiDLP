@@ -1,28 +1,25 @@
 import time
-import GbrlPort
+import serial
 from pubsub import pub
 
 
+serMotion = serial.Serial('/dev/ttyAMA0',9600)
 
 
 
+if not serMotion.isOpen():
+	serMotion.open()
 
-GbrlPort.init()
-
-#serMotion = serial.Serial(serialportlist2.GrblPort, 115200)
-if not GbrlPort.serMotion.isOpen():
-    GbrlPort.serMotion.open()
-
-GbrlPort.serMotion.write("\r\n\r\n")
+serMotion.write("\r\n\r\n")
 time.sleep(2)   # Wait for grbl to initialize 
-GbrlPort.serMotion.flushInput()  # Flush startup text in serial input
+serMotion.flushInput()  # Flush startup text in serial input
 
 #--grbl is ready to use
 
 def processGCode(line):
     if not line.isspace(): 
         print 'GCode: '+line
-        GbrlPort.serMotion.write(line+'\n')
+        serMotion.write(line+'\n')
         print 'Motion Controller: '+serMotion.readline()
 
 
