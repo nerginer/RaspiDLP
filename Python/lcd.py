@@ -1,9 +1,13 @@
 from pubsub import pub
+import lcddriver
+
+lcd = lcddriver.lcd()
 
 
 
 def listener_Func(arg1, arg2):
-   pass
+   lcd.lcd_display_string(arg1, 1)
+   lcd.lcd_display_string(arg2, 2)
 
 # ------------ register listener ------------------
 
